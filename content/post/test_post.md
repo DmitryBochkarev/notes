@@ -1,11 +1,8 @@
 ---
-title: "spf13-vim 3.0 release and new website"
-description: "spf13-vim is a cross platform distribution of vim plugins and resources for Vim."
-tags: [ ".vimrc", "plugins", "spf13-vim", "vim"  ]
+title: "Hello world"
+description: ""
 date: "2012-04-06"
-categories:
-  - "Development"
-  - "VIM"
-slug: "spf13-vim-3-0-release-and-new-website"
 ---
-Hello world
+Sit labore commodi dolorum perferendis dolorum ad harum in, quidem corporis? Praesentium et perferendis accusamus perspiciatis eum incidunt. Amet consequatur tempore ratione sapiente perspiciatis repellendus numquam veniam. Dolores et maiores.
+
+Elit exercitationem repellendus vero et aliquid. Natus cupiditate corrupti tempora assumenda dolor voluptatum nisi quaerat, recusandae eligendi. Ex quod fugit quibusdam nisi doloribus. Non nostrum consequatur voluptatem ea ratione. Aliquam.

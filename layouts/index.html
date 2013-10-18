@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
+{{ template "chrome/header.html" .  }}
+  <header>
+    <div class="title">Writing</div>
+    <div class="navi">
+      <span>Jeremy Saenz</span>
+    </div>
+  </header>
 
-    <base href="{{ .Site.BaseUrl  }}">
-    <title>{{ .Site.Title  }}</title>
-    <link rel="canonical" href="{{ .Permalink  }}">
-
-  </head>
-  <body lang="en">
-
-    <section id="main">
-    <ul>
-      {{ range .Data.Pages  }}
-      {{ .Render "single" }}
-      {{ end  }}
-    </ul>
-    </section>
-
-  </body>
-</html>
+  {{ with index .Data.Pages 0 }}
+    {{ .Render "article" }}
+  {{ end  }}
+{{ template "chrome/footer.html" .  }}
